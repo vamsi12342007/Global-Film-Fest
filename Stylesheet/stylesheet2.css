@@ -1,0 +1,430 @@
+body {
+  background-color: yellowgreen;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  color: Black;
+}
+
+.hidden {
+  display: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+.vamsinfo {
+  text-align: center;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.homeimageinfo {
+  text-align: center;
+  width: 1000px;
+  /* height: 500px; */
+  position: relative;
+  bottom: 550px;
+  left: 350px;
+}
+
+.founderinfo3 {
+  text-align: left;
+  font-size: 15px;
+}
+
+.submitbutton {
+  background-color: yellow;
+  border: 3px solid black;
+  color: Black;
+  padding: 10px 20px;
+  text-align: left;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+  position: relative;
+  left: 700px;
+  top: -20px;
+}
+
+.button {
+  background-color: yellow;
+  border: 3px solid black;
+  color: Black;
+  padding: 60px 100px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 60px;
+  border-radius: 30px;
+}
+
+#Button {
+  background-color: yellow;
+  border: 3px solid black;
+  color: Black;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.ContactForm {
+  color: black;
+  position: relative;
+  top: 20px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.Nav {
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.contactslogan {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.contactparagraph {
+  color: Black;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.aboutparagraph {
+  color: black;
+  font-size: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.aboutlogo {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.submitparagraph {
+  color: Black;
+  font-size: 20px;
+}
+
+.submitcontainer {
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+.aboutcontainer {
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+.submitlogan {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.contactext {
+  text-align: center;
+  border: 3px solid white;
+  color: black;
+  font-size: 30px;
+  background-color: yellow;
+  position: relative;
+  top: 30px;
+  border-radius: 30px;
+}
+
+.Header1 {
+  display: flex;
+  font-size: 25px;
+  justify-content: space-evenly;
+  background-color: yellow;
+  color: black;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+
+.mainslogan {
+  position: relative;
+  top: 30px;
+  font-size: 30px;
+}
+
+#firstnametext {
+  margin-top: 20px;
+}
+
+#lastnametext {
+  margin-top: 20px;
+}
+
+#emailtext {
+  margin-top: 20px;
+}
+
+#phonenumbertext {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  margin-top: 50px;
+}
+
+.servicesflexbox {
+  color: white;
+  text-align: left;
+}
+
+.contactinfo {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+.servicesicons {
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  width: 250px;
+}
+
+#messageinput {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+#contactinfo2 {
+  position: relative;
+  top: 15px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.servicespara {
+  font-size: 10px;
+}
+
+h3 {
+  text-align: right;
+  color: white;
+  font-size: 70px;
+}
+
+.homeimage {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+
+.homeimage2 {
+  position: relative;
+  right: 10px;
+  /* margin-bottom: 70px; */
+  border: 3px solid white;
+}
+
+.container {
+  display: inline-block;
+  padding: 20px;
+  justify-content: center;
+  color: White;
+}
+
+.image {
+  border: 2px solid white;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.description {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.mnav {
+  text-align: right;
+  padding: 10px;
+  margin: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.Header1 {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: medium;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: wheat;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  color: white;
+  text-align: center;
+}
+
+hr.new4 {
+  border-top: 10px solid white;
+}
+
+.hr.new5 {
+  border-top: 10px solid white;
+  position: relative;
+  top: 30px;
+}
+
+hr.new3 {
+  border-top: 6px dashed white;
+}
+
+hr.new4 {
+  border-top: 3px dashed black;
+}
+
+.homepageicons {
+  font-size: medium;
+  color: white;
+}
+
+.footericons {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.programicons {
+  margin-right: 5px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contactContainer p {
+  margin-top: 0 !important;
+  margin-left: 10px;
+}
